@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br---">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,24 +26,24 @@
     <!-- Cabeçalho do lado direito -->
     <nav class="navbar-container">
       <ul>
-        <li>Início</li>
+        <li><a href="#Home">Início</a></li>
         <li><a href="#sobre">Sobre</a></li>
-        <li>Habilidades</li>
+        <li><a href="#habilidades"></a></li>
         <li>Projetos</li>
         <li>Contato</li>
       </ul>
     </nav>
 
     <!-- Area de apresentação do nome e especialidade -->
-    <div class="showcase-container">
+    <div id="Home" class="showcase-container">
       <h1>Olá, eu sou</h1>
       <h1>Guilherme Martins</h1>
       <p>A Professional Web Developer</p>
     </div>
 
-    <div class="section-container">
+    <div id="sobre" class="section-container">
       <div class="section-content">
-        <h2 id="sobre" class="section-title">Sobre mim</h2>
+        <h2 class="section-title">Sobre mim</h2>
 
         <div class="about-me-content">
           <img src="./images/eu.jpeg" alt="Foto de apresentação" />
@@ -115,7 +115,9 @@
                 para os call to actions de forma estratégica.
               </p>
               <p>Página estática</p>
-              <a href="https://regal-stardust-bbe901.netlify.app/"
+              <a
+                target="_blank"
+                href="https://regal-stardust-bbe901.netlify.app/"
                 >APERTE AQUI PARA ABRIR A PÁGINA</a
               >
             </div>
@@ -142,8 +144,11 @@
                   target="_blank"
                 >
                   <i class="fa-brands fa-github fa-xl"></i>
+                  Aperte aqui para abrei o código fonte
                 </a>
-                <a href="https://thunderous-chimera-8d8b4d.netlify.app/"
+                <a
+                  target="'_blank"
+                  href="https://thunderous-chimera-8d8b4d.netlify.app/"
                   >APERTE AQUI PARA ABRIR A PÁGINA</a
                 >
               </div>
@@ -201,17 +206,19 @@
     <div class="section-container">
       <div class="section-content">
         <h2 class="section-title">Entre em contato</h2>
-        <form class="contact-form">
+        <form class="contact-form" action="./formulario.html" novalidate>
           <input
             type="text"
-            name="full-name"
+            name="fullName"
+            required
+            minlength="3"
             id="fullName"
-            placeholder="Seu nome"
+            placeholder="Informe seu nome"
             class="form-input"
           />
           <input
             type="email"
-            name="emailemail"
+            name="email"
             id="email"
             placeholder="Seu email"
             class="form-input"
@@ -248,5 +255,6 @@
       </div>
       <p>Copyright 2024</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
