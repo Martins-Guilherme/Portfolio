@@ -8,7 +8,7 @@ O código HTML apresentado define a estrutura básica de um portfólio online pa
 
 Projeto realizado no curso CodeStart em parceria com Felipe Rocha, plataforma FullStackClub.
 
-Link projeto: https://cozy-starship-b41640.netlify.app/](https://portfolio-ruby-alpha-60.vercel.app/)
+Link projeto: https://portfolio-ruby-alpha-60.vercel.app/
 
 
 ![image](https://github.com/user-attachments/assets/b426e111-3853-4ecd-b4e2-83669fd9b3ef)
