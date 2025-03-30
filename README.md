@@ -13,4 +13,4 @@ Link projeto: https://cozy-starship-b41640.netlify.app/
 
 ![image](https://github.com/user-attachments/assets/b426e111-3853-4ecd-b4e2-83669fd9b3ef)
 
-Obs: Projeto em construção!
+Obs: Projeto em desenvolvimento!

@@ -170,7 +170,8 @@ html{
   background-image: url("./images/pizza_shop.png");
 }
 .project-item-3 {
-  background-image: url("./images/project-3.jpeg");
+  background-image: url("./images/ListaDeTarefas.png");
+  background-position: center;
 }
 .project-item-4 {
   background-image: url("./images/project-4.jpeg");
