@@ -111,6 +111,10 @@
   .contact-form{
     margin-top: 40px;
   }
+  .form-input:focus{
+    background: hsl(120, 3%, 53%);
+    outline: none;
+  }
 
   /* FOOTER */
 
